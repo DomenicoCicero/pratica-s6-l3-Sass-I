@@ -1,0 +1,12 @@
+$font_family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$font_small: 1.2rem;
+$font_medium: 1.4rem;
+$font_large: 1.6rem;
+$font_extralarge: 2rem;
+
+@mixin title {
+  color: white;
+  font-size: 2rem;
+  margin-block: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

@@ -1,0 +1,16 @@
+@mixin floating() {
+  border-radius: 30px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 1);
+  border: 1px solid lightgray;
+}
+
+@mixin floatingGrid {
+  border-radius: 30px;
+  box-shadow: 0px 6px 6px rgb(179, 67, 67);
+}
+
+@mixin grid($value) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100% / $value;
+}

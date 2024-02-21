@@ -1,0 +1,24 @@
+$display: "block", "inline";
+$dimensions: "sm", "normal", "md", "lg", "xl", "xxl";
+$sizes: 1rem, 1.2rem, 1.6rem, 2rem, 2.4rem, 2.8rem;
+
+// @each $display in $dimension {
+//   @each $dimension in $sizes {
+//     padding-#{$display}-#{$dimension} {
+//       padding-#{$display}: #{$sizes};
+//       margin: #{$sizes};
+//     }
+//   }
+// }
+
+// @each $display in $displays {
+//   @each $dimension in $dimensions {
+//     $size-index: index($dimensions, $dimension);
+//     $size: nth($sizes, $size-index);
+
+//     .padding-#{$display}-#{$dimension} {
+//       padding-#{$display}: $size;
+//       margin: $size;
+//     }
+//   }
+// }
